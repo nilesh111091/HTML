@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+}
+.topbar {
+    background: #6b1c23;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.column-4 {
+    width: 33.33%;
+    border: 0px solid #fff;
+    float: left;
+    color: #fff;
+}
+.first-column {
+    padding-left: 30px;
+    font-size: 30px;
+}
+.second-column {
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+.third-column {
+    text-align: right;
+    padding-right: 30px;
+    font-size: 30px;
+}

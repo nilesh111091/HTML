@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #e0e4ff
+}
+h1,h2,h3,h4,h5,h6{font-family: 'Montserrat', sans-serif;}
+button,a,p {font-family: 'Montserrat', sans-serif;}
+p{font-weight: 600;font-size: 19px;}
+button {font-size: 18px;}
+::placeholder{font-size: 18px;padding-left: 15px;} /* pseudo class */
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin: 0;
+    font-weight: 700;
+}
+.container {
+    width: 1200px;
+    height: 700px;
+    margin: 100px auto;
+}
+.box {
+    width: 60%;
+    border: 1px solid #eaeaea;
+    background: #fff;
+    height: 400px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 80px;
+}
+.box p {
+    padding-top: 15px;
+}
+.box .form, .box .common_search {
+    padding-top: 15px;
+}
+.box .form input{
+    height: 55px;
+    width: 65%;
+    border-radius: 5px;
+    margin: 0;
+}
+.box .form button{
+    height: 60px;
+    width: 150px;
+    background: #161a47;
+    color: #fff;
+    border-radius: 5px;
+}
+.box .btn {
+    padding: 15px 30px;
+    border: 0px solid;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.btn1{background: #ffedf3;color: #de8fa8;}
+.btn2{background: #f4edff;color: #7a65a0}
+.btn3{background:  #dff3d6;color: #6a985c}
+.btn4{background: #feecdc;color: #e7ad7e}
